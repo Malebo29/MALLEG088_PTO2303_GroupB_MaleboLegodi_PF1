@@ -58,8 +58,6 @@ ul {
 ------------------------------------*/
 
 aside {
-    width: 180px;
-    height: 100px;
     background-color: #114b5f;
 
 }
@@ -111,8 +109,18 @@ header p {
     margin-top: 10px;
 }
 
-.education a {
-    color: #E65F5C;
+.education .btn {
+    background: #1B998B;
+    color: #F7FFF7;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.education .btn:hover {
+    background: rgba(27, 153, 139, 50%);
+    color: #114b5f;
 }
 
 /* Work Experience
