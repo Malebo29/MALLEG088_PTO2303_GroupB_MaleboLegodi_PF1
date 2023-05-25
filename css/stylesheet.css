@@ -142,8 +142,12 @@ header p {
 /* Contact Info
 ------------------------------------*/
 footer {
-    background-color: #114b5f;
+    background-color: #1B998B;
     color: #F7FFF7;
+}
+
+#social-links {
+    background-color: #114b5f;
     margin: 0;
     padding: 10px 20px;
     clear: both;
