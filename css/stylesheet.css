@@ -1,3 +1,5 @@
+/* New code using flex boxes throughout so it can be easy to work with for responsive design */
+
 /*
 COLOR PALETTE
 --rich black: #114b5f;
@@ -12,25 +14,31 @@ COLOR PALETTE
 
 /* Global styles
 ------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
     background-color: #eee;
-    border: 3px solid #114b5f;
     font-family: Verdana, Serif, Arial, Helvetica;
-    font-weight: 100;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-img {
-    width: 300px;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 a {
     color: #F7FFF7;
+}
+
+a:hover {
     text-decoration: none;
 }
 
@@ -40,20 +48,19 @@ article {
     padding: 10px 10px;
 }
 
-
 h3 {
     margin: 5px;
 }
 
 p {
-    font-family: Verdana, Serif, Arial, Helvetica;
     font-size: 13px;
     margin: 10px;
 }
 
 ul {
-    font-family: Verdana, Serif, Arial, Helvetica;
     font-size: 13px;
+    list-style-type: none;
+    margin: 10px;
 }
 
 /* ---- Back to top ---- */
@@ -64,95 +71,147 @@ ul {
     bottom: 50px;
 }
 
-#back-to-top > button{
+#back-to-top>button {
     background-color: rgb(198, 156, 78);
     border-radius: 50%;
     border: solid 1px rgb(198, 156, 78);
     width: 50px;
     height: 50px;
 }
-#back-to-top:hover > button {
+
+#back-to-top:hover>button {
     border: solid 1px rgb(198, 156, 78);
     background-color: white;
-    
+
 }
-#back-to-top > button {
+
+#back-to-top>button {
     text-decoration: none;
     color: whitesmoke;
 }
-#back-to-top:hover > button {
+
+#back-to-top:hover>button {
     text-decoration: none;
     color: rgb(198, 156, 78);
 }
 
 /* Side Menu / nav
 ------------------------------------*/
-
-#navbar {
-    background-color: #114b5f;
+.navbar {
+    width: 100%;
+    background-color: #1B998B;
     text-decoration: none;
-    color: white;
-    text-align: center;
+    color: #F7FFF7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
     z-index: 1;
+}
 
+.logo {
+    margin: 0 10px;
+}
+
+.menu {
+    padding: 10px 12px;
 }
 
 .nav-link {
     text-decoration: none;
-    color:white;
-    margin: 0 60px;
+    color: #F7FFF7;
+    font-size: 16px;
+    margin: 12px;
 }
 
 .nav-link:hover {
     color: rgb(219, 191, 63);
-    text-decoration: none;
 }
+
 button:hover {
     background-color: rgb(219, 191, 63);
-    text-decoration: none;
 }
 
 /* Profile
 ------------------------------------*/
 
-.maleboPic {
-    vertical-align: middle;
-    width: 100px;
-    height: 100px;
+/* Hero image style area */
+
+.hero-image {
+    background-image: linear-gradient(rgba(4, 20, 26, 0.9), rgba(4, 20, 26, 0.8)), url('./images/MaleboBigScreen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     overflow: hidden;
-    border-radius: 50%;
-    border: 3px solid #F7FFF7;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    height: 500px;
+    width: auto;
 }
 
-header {
-    background-color: #1B998B;
-    font-family: Verdana, Serif, Arial, Helvetica;
-    font-size: 30px;
+.hero-text {
+    position: absolute;
+    top: 130px;
+    left: 25%;
+    align-items: center;
+    width: 60%;
+    height: 280px;
     color: #F7FFF7;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
+.hero-text h1 {
+    border: 10px solid #F7FFF7;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: #F7FFF7;
+    letter-spacing: 4px;
 }
 
-header p {
+.hero-text h2 {
+    padding: 8px 12px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.hero-text p {
     color: #F7FFF7;
     font-size: 15px;
-    padding-bottom: 10px;
-    margin: 0;
+    padding: 10px;
+
+}
+
+.hero-text .btn-hire {
+    text-decoration: none;
+    color: #114b5f;
+    padding: 10px 20px;
+    background: #eee;
+    border: 2px solid #F7FFF7;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    display: inline-block;
+}
+
+.hero-text .btn-hire:hover {
+    background: #114b5f;
+    color: #F7FFF7;
 }
 
 /* Education
 ------------------------------------*/
-#education {
+.school {
+    background-color: #F7FFF7;
     font-size: 20px;
-    margin-top: 10px;
 }
 
-.education .btn {
+.school .btn {
     background: #1B998B;
     color: #F7FFF7;
     text-decoration: none;
@@ -161,22 +220,21 @@ header p {
     display: inline-block;
 }
 
-.education .btn:hover {
+.school .btn:hover {
     background: rgba(27, 153, 139, 50%);
     color: #114b5f;
 }
 
 /* Work Experience
 ------------------------------------*/
-#experience {
+.work-experience {
     font-size: 20px;
 }
 
 /* Skills
 ------------------------------------*/
-#skills {
+.work-skills {
     font-size: 20px;
-
 }
 
 /* Contact Info
@@ -212,8 +270,8 @@ footer {
 
 .form-container .my-form .input-field-box label {
     width: 200px;
-    margin-right: 10px;
     font-size: 15px;
+    padding: 8px 10px;
 }
 
 .form-container .my-form .input-field-box input {
@@ -239,9 +297,8 @@ footer {
 }
 
 .form-container .my-form .input-field-box .subject-select {
-    position: relative;
-    height: 37px;
     outline: none;
+    width: 100%;
     border: solid 1px #F7FFF7;
     font-size: 15px;
     padding: 8px 10px;
@@ -257,9 +314,14 @@ footer {
     cursor: pointer;
 }
 
-#social-links {
+.social-links {
     background-color: #114b5f;
+    display: flex;
+    justify-content: center;
     margin: 0;
-    padding: 10px 20px;
-    clear: both;
+}
+
+.social-links a {
+    padding: 15px;
+    display: inline-block;
 }
