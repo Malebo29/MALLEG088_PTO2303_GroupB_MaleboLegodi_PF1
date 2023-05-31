@@ -1,0 +1,139 @@
+/*
+COLOR PALETTE
+--rich black: #114b5f;
+--dark gray-almost black: #343434;
+--persian-green: #1B998B;
+--icterine: #FFFF82;
+--beige: #F5F7DC;
+--indian red: #E65F5C;
+--almost white: #F7FFF7;
+--Almost grey: #eee;
+*/
+
+/* Global styles
+------------------------------------*/
+
+body {
+    background-color: #eee;
+    border: 3px solid #114b5f;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-weight: 100;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #F7FFF7;
+    text-decoration: none;
+}
+
+article {
+    background-color: #F7FFF7;
+    color: #114b5f;
+    padding: 10px 10px;
+}
+
+
+h3 {
+    margin: 5px;
+}
+
+p {
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 13px;
+    margin: 10px;
+}
+
+ul {
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 13px;
+}
+
+/* Side Menu
+------------------------------------*/
+
+aside {
+    width: 180px;
+    height: 100px;
+    background-color: #114b5f;
+
+}
+
+aside ul {
+    margin: 0;
+    padding: 10px 30px;
+    color: #FFFF82;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Profile
+------------------------------------*/
+
+.maleboPic {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #F7FFF7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #1B998B;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 30px;
+    color: #F7FFF7;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    color: #F7FFF7;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+/* Education
+------------------------------------*/
+#education {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.education a {
+    color: #E65F5C;
+}
+
+/* Work Experience
+------------------------------------*/
+#experience {
+    font-size: 20px;
+}
+
+/* Skills
+------------------------------------*/
+#skills {
+    font-size: 20px;
+
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+    background-color: #114b5f;
+    color: #F7FFF7;
+    margin: 0;
+    padding: 10px 20px;
+    clear: both;
+}

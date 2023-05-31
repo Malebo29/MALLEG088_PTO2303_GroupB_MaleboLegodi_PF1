@@ -1,0 +1,770 @@
+/*
+body {
+    background-color: #eee;
+    border: 3px solid #304145;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-weight: 100;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   a{
+       color: #fff;
+   }
+
+   nav ul {
+    color: #fea680;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+aside {
+    width: 153px;
+    padding: 10px;
+    background-color: #304145;
+    color: #fea680;
+    margin: 5px;
+    float: left;
+}
+
+.AmandaHeadshot {
+    vertical-align: middle;
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+header, h1 {
+background-color: #9BC5C9;
+font-family: Verdana, Serif, Arial, Helvetica;
+font-size: 30px;
+color: #000;
+text-align: center;
+margin: 0;
+padding: 5px;
+}
+
+main {
+    padding: 30px;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    background-color: #BAC7CE;
+    float: right;
+}
+
+#education {
+    font-size: 20px;
+    color: #304145;
+    margin-top: 10px;
+}
+
+#experience {
+    font-size: 20px;
+    color: #304145;
+}
+
+#skills {
+    font-size: 20px;
+    color: #304145;
+}
+
+main, p {
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 13px;
+    color: #1B1212;
+    margin: 10px;
+}
+
+main, h3 {
+    color: #1B1212;
+    margin: 5px;
+}
+
+main, ul {
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 13px;
+    color: #1B1212;
+}
+
+  #contact details {
+    background-color: #BEC496;
+    color: #304145;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #9BC5C9;
+    padding: 20px;
+    margin: 0;
+    clear: both;
+  }
+
+*/
+
+/* 
+*
+*The above CSS code was for Resume4.html 
+*
+*/
+
+/* 
+*
+*The below CSS code is for Resume5.html
+*
+*/
+
+/*
+
+body {
+    background-color: #eee;
+    border: 3px solid #304145;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-weight: 100;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #fff;
+}
+
+nav ul {
+    color: #fea680;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+aside {
+    width: 153px;
+    padding: 10px;
+    background-color: #304145;
+    color: #fea680;
+    margin: 5px;
+    float: left;
+}
+
+.AmandaHeadshot {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header,
+h1 {
+    background-color: #9BC5C9;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+main {
+    padding: 30px;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    background-color: #BAC7CE;
+    float: right;
+}
+
+#education {
+    font-size: 20px;
+    color: #304145;
+    margin-top: 10px;
+}
+
+#experience {
+    font-size: 20px;
+    color: #304145;
+}
+
+#skills {
+    font-size: 20px;
+    color: #304145;
+}
+
+main,
+p {
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 13px;
+    color: #1B1212;
+    margin: 10px;
+}
+
+main,
+h3 {
+    color: #1B1212;
+    margin: 5px;
+}
+
+main,
+ul {
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 13px;
+    color: #1B1212;
+}
+
+#contact details {
+    background-color: #BEC496;
+    color: #304145;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer {
+    background-color: #9BC5C9;
+    padding: 20px;
+    margin: 0;
+    clear: both;
+}
+
+*/
+
+/* 
+*
+*The above CSS code was for Resume5.html 
+*
+*/
+
+/* 
+*
+*The below CSS code is for Resume6.html
+*
+*/
+
+/* 
+*
+*The below code is disbaled to be replaced with the Form for Resume7-1.html 
+
+#date {
+    position: absolute;
+    color: #304145;
+    clear: both;
+    margin-top: 645px;
+}
+*
+*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Serif, Arial, Helvetica;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    background-color: #304145;
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 3px;
+}
+
+.navbar {
+    height: 100px;
+    text-transform: uppercase;
+    position: relative;
+    margin: auto;
+    width: 70%;
+}
+
+.navbar .logo {
+    float: left;
+    display: inline;
+    line-height: 100px;
+    color: #000;
+    font-size: 16px;
+
+}
+
+.navbar .menu {
+    float: right;
+    line-height: 100px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.navbar .menu a {
+    margin: 0 25px;
+}
+
+.navbar .menu:hover {
+    border-bottom: 2px solid #000;
+}
+
+#hero-image {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0, 0.5), rgba(0,0,0,0, 0.5)) url('./images/MaleboBigScreen.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    position: absolute;
+    top: 45%;
+    width: 50%;
+    color: #fff;
+    margin-left: 500px;
+}
+
+.hero-text h1 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 65px;
+    padding-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.hero-text .btn-hire {
+    color: #000;
+    padding: 10px 30px;
+    background: #eee;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    margin-top: 20px;
+}
+
+.hero-text .btn-hire:hover {
+    background: #000;
+    color: #fff;
+}
+
+#information {
+    display: flex;
+    background-color: #BAC7CE;
+    justify-content: space-between;
+    margin-top: 540px;
+    max-width: 100%;
+    height: auto;
+}
+
+#content {
+    order: 2;
+    width: 75%;
+    padding: 10px;
+    min-height: 550px;
+    color: #304145;
+    margin: 10px;
+    float: right;
+}
+
+#content h3 {
+    padding: 20px 10px;
+}
+
+#experience{
+    margin-top: 20px;
+}
+
+#sidebar {
+    order: 1;
+    width: 20%;
+    min-height: 645px;
+    background-color: #304145;
+    color: #fff;
+    float: left;
+    position: relative;
+}
+
+#contact,
+#skills,
+#hobbies {
+    line-height: 30px;
+    margin: 5px;
+    padding: 10px 10px;
+}
+
+#sidebar ul{
+    list-style-type: none;
+}
+
+
+#back2Top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #304145;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#back2Top:hover {
+    background-color: #304145;
+}
+
+#contactMe {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #fff;
+    border-radius: 6px;
+    min-width: 800px;
+    align-content: center;
+    position: relative;
+    clear: both;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+#checks label {
+    margin-top: 0;
+}
+
+input {
+    padding: .5em;
+    border: solid 1px #999;
+}
+
+input [type="email"],
+input[type="text"] {
+    width: 15em;
+}
+
+textarea {
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: solid 1px #999;
+}
+
+#checks {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+input [type="checkbox"]+label,
+input[type="radio"]+label {
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#submit {
+    width: 80px;
+    background-color: #304145;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+*/
+
+/* New code using flex boxes throughout so it can be easy to work with for responsive design */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    font-family: Verdana, Serif, Arial, Helvetica;
+}
+
+/* Header section starts here */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #304145;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .logo {
+    font-size: 15px;
+    margin: 10px
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    padding: 5px;
+    display: block;
+}
+
+.navbar .menu a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Hero image style area */
+#hero-image {
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('./images/MaleboBigScreen.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.hero-text {
+    position: absolute;
+    top: 34%;
+    left: 30%;
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-text h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.hero-text h1 span {
+    border: 10px solid white;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    display: in-line-block;
+    max-width: 100%;
+}
+
+.hero-text .des {
+    Margin: 39px 0;
+    display: block;
+    font-size: 32px;
+    text-shadow: 0 0 10px black;
+    width: 100%;
+}
+
+.hero-text .btn-hire {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 30px;
+    background: #eee;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.hero-text .btn-hire:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Resume content starts */
+
+#information {
+    max-width: 100%;
+    background-color: #BAC7CE;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content {
+    flex-basis: 75%;
+    order: 2;
+    padding: 10px;
+    min-height: 550px;
+    color: #304145;
+    margin: 10px;
+}
+
+#content h3 {
+    padding: 20px 10px;
+}
+
+#experience {
+    margin-top: 20px;
+}
+
+#sidebar {
+    flex-basis: 25%;
+    order: 1;
+    background-color: #304145;
+    color: #fff;
+}
+
+#contact,
+#skills,
+#hobbies {
+    line-height: 30px;
+    margin: 5px;
+    padding: 10px 10px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+/* Styling for the Form element in the footer section of Resume7-1.html starts here */
+
+#contactMe {
+    background-color: #BAC7CE;
+    padding: 0 10px;
+}
+
+.form-container {
+    width: 100%;
+    background-color: #BAC7CE;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.form-container .form-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #304145;
+    text-transform: uppercase;
+}
+
+.form-container .my-form {
+    width: 100%;
+}
+
+.form-container .my-form .input-field-box {
+    max-width: 100%;
+    margin: 15px auto;
+}
+
+.form-container .my-form .input-field-box label {
+    width: 200px;
+    color: #304145;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.form-container .my-form .input-field-box input {
+    width: 100%;
+    outline: none;
+    border: solid 1px #999;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-container .my-form .input-field-box textarea {
+    resize: none;
+    width: 100%;
+    min-height: 100px;
+    outline: none;
+    border: solid 1px #999;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-container .my-form .input-field-box .subject-select {
+    position: relative;
+    height: 37px;
+    outline: none;
+    border: solid 1px #999;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease
+}
+
+#submit {
+    background-color: #304145;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+	display: flex;
+    align-content: space-between;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	background-color: #304145;
+    padding: 10px;
+}
+
+#back2Top {
+    flex-basis: 20%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    color: #304145;
+    cursor: pointer;
+}
+
+#back2Top:hover {
+    background-color: rgba(255,255,255, 0.2);
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu a {
+        width: 100%;
+        margin: 10px
+    }
+
+    .form-container .my-form .input-field-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-container .my-form .input-field-box label {
+        margin-bottom: 5px;
+    }
+}
