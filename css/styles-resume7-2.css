@@ -1,0 +1,327 @@
+/* New code using flex boxes throughout so it can be easy to work with for responsive design */
+
+/*
+COLOR PALETTE
+--rich black: #114b5f;
+--dark gray-almost black: #343434;
+--persian-green: #1B998B;
+--icterine: #FFFF82;
+--beige: #F5F7DC;
+--indian red: #E65F5C;
+--almost white: #F7FFF7;
+--Almost grey: #eee;
+*/
+
+/* Global styles
+------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #eee;
+    font-family: Verdana, Serif, Arial, Helvetica;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #F7FFF7;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+article {
+    background-color: #F7FFF7;
+    color: #114b5f;
+    padding: 10px 10px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+p {
+    font-size: 13px;
+    margin: 10px;
+}
+
+ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+/* ---- Back to top ---- */
+
+#back-to-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+#back-to-top>button {
+    background-color: rgb(198, 156, 78);
+    border-radius: 50%;
+    border: solid 1px rgb(198, 156, 78);
+    width: 50px;
+    height: 50px;
+}
+
+#back-to-top:hover>button {
+    border: solid 1px rgb(198, 156, 78);
+    background-color: white;
+
+}
+
+#back-to-top>button {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#back-to-top:hover>button {
+    text-decoration: none;
+    color: rgb(198, 156, 78);
+}
+
+/* Side Menu / nav
+------------------------------------*/
+.navbar {
+    width: 100%;
+    background-color: #1B998B;
+    text-decoration: none;
+    color: #F7FFF7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    z-index: 1;
+}
+
+.logo {
+    margin: 0 10px;
+}
+
+.menu {
+    padding: 10px 12px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #F7FFF7;
+    font-size: 16px;
+    margin: 12px;
+}
+
+.nav-link:hover {
+    color: rgb(219, 191, 63);
+}
+
+button:hover {
+    background-color: rgb(219, 191, 63);
+}
+
+/* Profile
+------------------------------------*/
+
+/* Hero image style area */
+
+.hero-image {
+    background-image: linear-gradient(rgba(4, 20, 26, 0.9), rgba(4, 20, 26, 0.8)), url('./images/MaleboBigScreen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    height: 500px;
+    width: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 130px;
+    left: 25%;
+    align-items: center;
+    width: 60%;
+    height: 280px;
+    color: #F7FFF7;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-text h1 {
+    border: 10px solid #F7FFF7;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: #F7FFF7;
+    letter-spacing: 4px;
+}
+
+.hero-text h2 {
+    padding: 8px 12px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.hero-text p {
+    color: #F7FFF7;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.hero-text .btn-hire {
+    text-decoration: none;
+    color: #114b5f;
+    padding: 10px 20px;
+    background: #eee;
+    border: 2px solid #F7FFF7;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    display: inline-block;
+}
+
+.hero-text .btn-hire:hover {
+    background: #114b5f;
+    color: #F7FFF7;
+}
+
+/* Education
+------------------------------------*/
+.school {
+    background-color: #F7FFF7;
+    font-size: 20px;
+}
+
+.school .btn {
+    background: #1B998B;
+    color: #F7FFF7;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.school .btn:hover {
+    background: rgba(27, 153, 139, 50%);
+    color: #114b5f;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    font-size: 20px;
+}
+
+/* Skills
+------------------------------------*/
+.work-skills {
+    font-size: 20px;
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+    background-color: #1B998B;
+    color: #F7FFF7;
+}
+
+.form-container {
+    background-color: #1B998B;
+    margin: 0;
+    padding: 30px;
+    color: #343434;
+}
+
+.form-container #contacts {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: #F7FFF7;
+    text-transform: uppercase;
+}
+
+.form-container .my-form {
+    width: 100%;
+}
+
+.form-container .my-form .input-field-box {
+    max-width: 100%;
+    margin: 15px auto;
+}
+
+.form-container .my-form .input-field-box label {
+    width: 200px;
+    font-size: 15px;
+    padding: 8px 10px;
+}
+
+.form-container .my-form .input-field-box input {
+    width: 100%;
+    outline: none;
+    border: solid 1px #F7FFF7;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-container .my-form .input-field-box textarea {
+    resize: none;
+    width: 100%;
+    min-height: 100px;
+    outline: none;
+    border: solid 1px #F7FFF7;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-container .my-form .input-field-box .subject-select {
+    outline: none;
+    width: 100%;
+    border: solid 1px #F7FFF7;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease
+}
+
+#submit {
+    background-color: #F7FFF7;
+    border-radius: 5px;
+    padding: 5px;
+    color: #114b5f;
+    cursor: pointer;
+}
+
+.social-links {
+    background-color: #114b5f;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.social-links a {
+    padding: 15px;
+    display: inline-block;
+}
